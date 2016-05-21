@@ -1,5 +1,11 @@
 import numpy as np
+import matplotlib.pyplot as plt
+import os.path
+import scipy
+import math
 import cv2
+import sys
+import time
 
 video1 = '/home/Athma/Downloads/SegNet/InputOutput/IPMLaneResults/laneresults.avi'
 cap2 = cv2.VideoCapture(video1)
