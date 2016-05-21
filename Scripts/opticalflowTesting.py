@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-video1 = '/home/Athma/Downloads/SegNet/InputOutput/vid5.avi'
+video1 = '/home/Athma/Downloads/SegNet/InputOutput/IPMLaneResults/laneresults.avi'
 cap2 = cv2.VideoCapture(video1)
 
 # params for ShiTomasi corner detection
